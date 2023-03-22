@@ -1,12 +1,8 @@
 #Escaner de Puertos
 #Importamos los Módulos requeridos
-import pyfiglet
 import sys
 import socket
 from datetime import datetime
-
-ascii_banner = pyfiglet.figlet_format("HOUND: PORT SCANNER")
-print(ascii_banner)
 
 # Especificamos el target; debe ser escrito después del comando
 if len(sys.argv) == 2:
